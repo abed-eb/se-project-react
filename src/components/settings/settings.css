@@ -1,0 +1,99 @@
+/*bg color css*/
+#settings .pro-sidebar {
+  color: black !important;
+  position: relative;
+  width: inherit !important;
+}
+#settings .pro-sidebar .pro-menu a {
+  color: black !important;
+}
+#settings .pro-sidebar > .pro-sidebar-inner {
+  background-color: white !important;
+  border-radius: 8px;
+}
+#settings .pro-sidebar .pro-menu > ul > .pro-sub-menu > .pro-inner-list-item {
+  background-color: white !important;
+}
+.pro-sidebar.collapsed
+  .pro-menu
+  > ul
+  > .pro-menu-item.pro-sub-menu
+  > .pro-inner-list-item
+  > .popper-inner {
+  background-color: white !important;
+}
+/*arrow css*/
+.pro-sidebar
+  .pro-menu
+  .pro-menu-item.pro-sub-menu
+  > .pro-inner-item
+  > .pro-arrow-wrapper
+  .pro-arrow {
+  border-color: black !important;
+}
+
+.pro-sidebar
+  .pro-menu
+  .pro-menu-item.pro-sub-menu
+  > .pro-inner-item
+  > .pro-arrow-wrapper
+  .pro-arrow {
+  background-color: white !important;
+}
+/*border css*/
+.pro-sidebar > .pro-sidebar-inner > .pro-sidebar-layout .pro-sidebar-header {
+  border-bottom: 1px solid rgba(128, 128, 128, 0.2) !important;
+}
+
+.pro-sidebar > .pro-sidebar-inner > .pro-sidebar-layout .pro-sidebar-footer {
+  border-top: 1px solid rgba(128, 128, 128, 0.2) !important;
+}
+
+.pro-sidebar .pro-menu .pro-menu-item.active {
+  background-color: #f2f1f4 !important;
+  color: black !important;
+}
+.pro-sidebar .pro-menu .pro-menu-item > .pro-inner-item:hover {
+  color: black !important;
+  background-color: #f2f1f4 !important;
+}
+
+.pro-sidebar .pro-menu .pro-menu-item > .pro-inner-item:focus {
+  color: black !important;
+  background-color: #f2f1f4 !important;
+}
+
+/*icon css*/
+.pro-sidebar
+  .pro-menu.shaped
+  .pro-menu-item
+  > .pro-inner-item
+  > .pro-icon-wrapper {
+  background-color: transparent !important;
+  width: 10%;
+}
+
+#settings .container {
+  max-width: 100% !important;
+}
+
+#settings .setting-main {
+  height: 100% !important;
+  margin-top: 8%;
+}
+
+#settings .setting-center {
+  max-height: 100%;
+}
+
+#settings .setting-right {
+  max-height: 100%;
+}
+
+#settings .setting-left {
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  max-height: 100%;
+  /* max-width: 20%; */
+}

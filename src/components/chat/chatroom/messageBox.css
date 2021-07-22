@@ -1,0 +1,136 @@
+.body {
+    line-height: 1;
+    background-color: #191154;
+}
+
+.rce-mbox-file{
+    width: 100%;
+}
+
+.rce-mbox-file button{
+    width: 100%;
+}
+
+.rce-mbox-file--buttons {
+    margin-left: auto;
+}
+
+.rce-mbox {
+    background: #cfebfc !important;
+
+    min-width: 200px;
+}
+
+.rce-input {
+    line-height: normal !important;
+}
+
+.rce-mbox-left-notch {
+    left: -15px;
+}
+
+.rce-mbox-left-notch {
+    fill: #cfebfc !important;
+}
+
+.rce-mbox-right-notch {
+    fill: #cfebfc !important;
+}
+
+.rce-mbox-right-notch {
+    right: -15px;
+}
+
+.rce-mbox-text {
+    /*margin-bottom: 20px;*/
+}
+
+.rce-mbox-right {
+    padding-bottom: 0px !important;
+}
+
+.rce-smsg-text {
+    text-align: center;
+    display: inline-block;
+    font-size: 15px;
+}
+
+.rce-smsg {
+    position: relative;
+    background: #120a5e;
+}
+
+.rce-container-mbox {
+    flex-direction: column;
+    display: block;
+    overflow-x: hidden;
+    min-width: 200px;
+    margin-top: 2%;
+}
+
+.rce-avatar-container.large {
+    width: 45px;
+    height: 45px;
+    margin-top: 8%;
+    margin-left: 7%;
+}
+
+.rce-mbox-reply.rce-mbox-reply-border {
+    border-left: 5px solid;
+    margin-top: 2%;
+}
+
+.rce-mbox-title--clear span {
+    color: #ecb4ff;
+    width: 100%;
+    /* font-size: large; */
+}
+
+.rce-mbox-body {
+    max-width: 60vw !important;
+}
+
+.rce-mbox-forward-right {
+    background-color: #148983;
+}
+
+.rce-mbox-forward-left {
+    background-color: #148983;
+}
+
+.rce-mbox-time {
+    position: initial !important;
+    color: #9d9dd1 !important;
+    text-align: right;
+    font-size: 12px;
+}
+
+.rce-mbox-reply-left {
+    background-color: #edededc9;
+}
+
+.rce-mbox-reply-right {
+    background-color: #edededc9;
+}
+
+.rce-mbox-reply.rce-mbox-reply-border {
+    border-left: 5px solid;
+    margin-top: 2%;
+    background-color: #edededc9;
+}
+
+.rce-mbox-title--clear span {
+    color: #ffffff;
+    /* font-size: large; */
+}
+
+.rce-mbox-reply.rce-mbox-reply-border {
+    border-left: 5px solid;
+    margin-top: 2%;
+    background-color: #ededed;
+    border-color: rgb(39 23 174);
+}
+
+.w-fit-content {
+    width: fit-content !important;
+}

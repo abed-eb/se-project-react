@@ -1,0 +1,29 @@
+.details-form input::placeholder {
+  font-size: 15px;
+  color: #aaaaab;
+}
+
+.details-form label {
+  font-size: 16px;
+}
+
+.details-form textarea::placeholder {
+  font-size: 15px;
+  color: #aaaaab;
+}
+
+.details-form textarea {
+  resize: none;
+}
+
+.details-input-description p {
+  color: #6b6b6f;
+  font-size: 13px;
+  margin-left: 0.5rem;
+}
+
+.details-input-price p {
+  color: red;
+  font-size: 13px;
+  margin-left: 0.5rem;
+}

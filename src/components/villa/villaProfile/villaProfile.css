@@ -1,0 +1,184 @@
+.villaProfile-main h6 {
+  color: #6b6b6f;
+  font-size: 18px;
+}
+
+.villaProfile-main {
+  margin-top: 6rem;
+}
+
+.villaProfile-main p {
+  font-size: 18px;
+}
+
+.villaProfile-gallery img {
+  width: 100% !important;
+  height: 100%;
+}
+
+/* .villaProfile-menu-button svg {
+  width: 100%;
+} */
+
+.villaProfile-gallery img:hover {
+  cursor: pointer;
+  border: 2px black solid;
+  border-radius: 10px;
+  transition: all 0.5s ease;
+  filter: opacity(60%);
+  /* transition: border-width 2s linear; */
+}
+#villaProfile-facility-disable {
+  filter: opacity(25%);
+}
+
+.villaProfile-gallery button {
+  position: absolute;
+  bottom: 6%;
+  left: 6%;
+  font: -webkit-mini-control;
+}
+
+.villaProfile-hostAvatar img {
+  max-width: 100%;
+  border-radius: 50%;
+}
+
+.villaProfile-detail img {
+  max-width: 100%;
+}
+
+.villaProfile-counter img {
+  max-width: 3%;
+  cursor: pointer;
+  border-radius: 50%;
+  transition: background 2s;
+}
+.villaProfile-counter img:hover {
+  transform: scale(1.1);
+  background-color: rgb(127, 127, 221);
+}
+/* .villaProfile-favorite-btn {
+  width: 40%;
+} */
+.villaProfile-reserveButton button {
+  width: 40%;
+}
+
+.villaProfile-facilityIcons {
+  max-width: 20% !important;
+}
+
+.location-villa-profile-text {
+  background-color: white;
+  font-size: 16px;
+}
+
+.location-address {
+  background-color: #ffffff;
+  font-size: 14px;
+  padding-inline-end: 0.5rem;
+  padding-inline-start: 0.5rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  /* padding: 4%; */
+  /* padding-right: 10%; */
+  width: 100%;
+  border-radius: 10%;
+}
+
+@media screen and (min-width: 1440px) {
+  .villaProfile-facilityIcons {
+    max-width: 24% !important;
+  }
+  .villaProfile-detail img {
+    max-width: 100%;
+  }
+  .villaProfile-hostAvatar img {
+    max-width: 100%;
+  }
+}
+
+.villaProfile-map {
+  border: 2px solid #8f8ff8;
+}
+.title {
+  min-width: 30%;
+  max-width: 95%;
+}
+/* .villaProfile-favorite-icon {
+  max-width: 5%;
+}
+.villaProfile-favorite-icon :hover {
+  cursor: pointer;
+  scale: 1.5;
+} */
+.villaProfile-fullAddress-onMap {
+  background-color: #ffffff;
+  font-size: 14px;
+  padding-left: 2%;
+  padding-top: 2%;
+  width: 100%;
+  border-radius: 10%;
+  /* height: 5vh; */
+}
+/* .dropdown-toggle::after {
+  align-self: center;
+  color: black;
+  display: inline-block;
+  margin-left: 0.255em;
+  vertical-align: 0.255em;
+  content: "";
+  border-top: 0.3em solid;
+  border-right: 0.3em solid transparent;
+  border-bottom: 0;
+  border-left: 0.3em solid transparent;
+} */
+
+@media screen and (max-width: 1300px) {
+  .villaProfile-facilityIcons {
+    max-width: 24% !important;
+  }
+  .villaProfile-detail img {
+    max-width: 100% !important;
+  }
+  .villaProfile-hostAvatar img {
+    max-width: 100% !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .villaProfile-facilityIcons {
+    max-width: 15% !important;
+  }
+  .villaProfile-detail img {
+    max-width: 100% !important;
+  }
+  .villaProfile-hostAvatar img {
+    max-width: 100% !important;
+  }
+}
+
+@media (max-width: 576px) {
+  .villaProfile-facilityIcons {
+    max-width: 15% !important;
+  }
+  .villaProfile-detail img {
+    max-width: 60% !important;
+  }
+  .villaProfile-hostAvatar img {
+    max-width: 60% !important;
+  }
+}
+
+@media (max-width: 427px) {
+  .villaProfile-facilityIcons {
+    max-width: 25% !important;
+  }
+  .villaProfile-detail img {
+    max-width: 70% !important;
+  }
+  .villaProfile-hostAvatar img {
+    max-width: 70% !important;
+  }
+}

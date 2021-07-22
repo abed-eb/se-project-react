@@ -1,0 +1,72 @@
+.option-right {
+    visibility: hidden;
+}
+
+.option-left {
+    visibility: hidden;
+}
+
+#generalChatroomOptionsHover :hover .option-left {
+    visibility: visible;
+}
+
+#generalChatroomOptionsHover :hover .option-right {
+    visibility: visible;
+}
+
+.rce-container-input {
+    flex-direction: row !important;
+    display: flex !important;
+    background-color: transparent;
+}
+
+.rce-input-textarea {
+    border-radius: 30px;
+    padding: 10px 10px !important;
+}
+
+.rce-input-buttons {
+    background-color: #ebebeb;
+    margin: 0px;
+    padding-right: 9px;
+    padding-top: 5px;
+}
+
+.chat-chatroomInfo {
+    background-color: transparent;
+    -webkit-box-shadow: 0px 11px 5px -12px #000000;
+    box-shadow: 0px 11px 5px -12px #000000;
+}
+
+.chat-input-div {
+    background-color: #ebebeb;
+    padding: 10px;
+}
+
+.ant-drawer-body {
+    padding: 0 !important;
+}
+
+.input-buttons {
+    padding-left: 10%;
+    transition: height 1s linear 1s;
+}
+
+.input-buttons button {
+    outline: none;
+    background-color: transparent;
+    border: 0;
+}
+
+.dropdown-menu {
+    box-shadow: 0 1rem 3rem rgb(0 0 0) !important;
+    background-color: #ebebeb;
+}
+
+.dropdown-item:hover{
+    background-color: #bfbfbf;
+}
+
+#chat-upload-button .ant-upload-list-text{
+    display: none;
+}

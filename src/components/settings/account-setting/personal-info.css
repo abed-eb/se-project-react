@@ -1,0 +1,171 @@
+.personalInfo-form input {
+  outline: none;
+  background-color: #e3e2e2;
+  padding-left: 1%;
+  height: 5vh;
+  border: 1px solid #ced4da;
+  border-radius: 4px !important;
+  color: black !important;
+}
+.personalInfo-avatar {
+  margin-left: 2%;
+}
+#settings .form-group {
+  width: 100%;
+}
+#settings .input-group-btn {
+  width: 100% !important;
+}
+#settings .input-group-prepend {
+  width: 100% !important;
+}
+#settings .input-group {
+  min-width: 8%;
+  max-width: 75%;
+}
+.personalInfo-form textarea {
+  background-color: #e3e2e2;
+  border-radius: 4px;
+  border-radius: 4px !important;
+  padding-left: 1%;
+  line-height: 31px;
+  font-family: Arial, Helvetica, Sans-serif;
+  resize: none;
+  color: black;
+}
+
+.personalInfo-bioField {
+  width: 100%;
+}
+
+.personalInfo-form textarea:focus {
+  outline: none;
+}
+
+.personalInfo-form label {
+  float: left;
+}
+
+.personalInfo-form select {
+  outline: none;
+  background-color: #e3e2e2;
+  border-radius: 4px;
+  border: 1px solid #ced4da;
+  padding-left: 1%;
+  width: 100%;
+  min-width: 8%;
+  max-width: 75%;
+  height: 5vh;
+}
+
+.personalInfo-main {
+  /* border-radius: 8px;
+  border: 1px solid #b9b5b5; */
+  background-color: white;
+  /* box-shadow: -2px 3px 8px -1px rgba(0, 0, 0, 0.84); */
+}
+
+.personalInfo-line {
+  min-width: 50%;
+  max-width: 94%;
+}
+
+.personalInfo-textAreaCounter {
+  position: relative;
+  z-index: 1004;
+  color: #696988;
+}
+
+.personalInfo-bioField textarea {
+  min-width: 25%;
+  max-width: 77%;
+  min-height: 15vh;
+  max-height: 25vh;
+}
+
+/*phone component input*/
+#settings .not-valid {
+  border: 1px solid #dc3545 !important;
+  border-left: 1px solid #dc3545 !important;
+  padding-right: calc(1.5em + 0.75rem) !important;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' fill='none' stroke='%23dc3545' viewBox='0 0 12 12'%3e%3ccircle cx='6' cy='6' r='4.5'/%3e%3cpath stroke-linejoin='round' d='M5.8 3.6h.4L6 6.5z'/%3e%3ccircle cx='6' cy='8.2' r='.6' fill='%23dc3545' stroke='none'/%3e%3c/svg%3e") !important;
+  background-repeat: no-repeat !important;
+  background-position: right calc(0.375em + 0.1875rem) center !important;
+  background-size: calc(0.75em + 0.375rem) calc(0.75em + 0.375rem) !important;
+  position: relative;
+}
+#settings .flag-warn .react-tel-input .flag-dropdown {
+  border-right: 1px solid #dc3545;
+}
+
+#settings .react-tel-input .form-control {
+  width: 100% !important;
+  background-color: #e3e2e2 !important;
+  height: 5vh;
+}
+#settings .react-tel-input .country-list {
+  background-color: #e3e2e2 !important;
+}
+
+#settings .react-tel-input .selected-flag:hover,
+#settings .react-tel-input .selected-flag:focus {
+  background-color: #c2c2c9 !important;
+}
+#settings .react-tel-input .selected-flag {
+  background-color: #e3e2e2 !important;
+}
+
+#settings .react-tel-input .country-list .country.highlight {
+  background-color: #c2c2c9 !important;
+}
+
+#settings .react-tel-input .country-list .country:hover {
+  background-color: #d2d2db !important;
+}
+#settings .personalInfo-btn {
+  min-width: 7%;
+  max-width: 70%;
+  width: 50%;
+}
+
+/* .personalInfo-btn button {
+  outline: none;
+  border: 0px;
+  border-radius: 8px;
+  color: white;
+  height: 4vh;
+} */
+
+/* .personalInfo-btn .submitBtn button {
+  background-color: #000000;
+  width: 90%;
+}
+.personalInfo-btn .resetBtn button {
+  background-color: #8b8b8b;
+  margin-left: 2%;
+  width: 90%;
+} */
+
+/*date selector css*/
+#settings .dateOfBirth-field {
+  width: 98%;
+}
+#settings .MuiInput-underline:before {
+  border-bottom: 0px !important;
+}
+#settings .MuiInput-underline:after {
+  border-bottom: 0px !important;
+}
+#settings .MuiInput-root {
+  min-width: 8%;
+  max-width: 76.5%;
+}
+
+.personalInfo-avatar button {
+  margin-left: 3%;
+}
+
+.personalInfo-avatar img {
+  width: 15%;
+  border-radius: 50%;
+}

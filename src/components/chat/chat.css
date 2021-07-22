@@ -1,0 +1,7 @@
+.ant-affix {
+  right: 15px !important;
+  width: fit-content !important;
+}
+.ant-drawer-close {
+  padding: 10px;
+}

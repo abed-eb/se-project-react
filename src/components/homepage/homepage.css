@@ -1,0 +1,54 @@
+/*@Sajad*/
+.homepage-div-bg {
+  background-repeat: no-repeat !important;
+  background-attachment: fixed !important;
+  background-position: center !important;
+  background-size: cover !important;
+
+  /*background-repeat: no-repeat;*/
+  /*min-height: 100%;*/
+  /*min-width: 50% !important;*/
+  height: 100vh;
+}
+
+#hp-sub-1 {
+  height: auto !important;
+  min-height: 100vh !important;
+}
+
+#hp-sub-3 {
+  height: auto !important;
+  min-height: 100vh !important;
+}
+
+.become-host-div-bg {
+  background-repeat: no-repeat !important;
+  background-attachment: fixed !important;
+  background-position: center !important;
+  background-size: cover !important;
+  height: 60%;
+  width: 80%;
+
+  /*background-repeat: no-repeat;*/
+  /*min-height: 100%;*/
+  /*min-width: 50% !important;*/
+}
+
+body {
+  overflow-y: auto;
+}
+
+.carousel-indicators {
+  margin-bottom: 0.5rem !important;
+}
+
+.map-side-Carousel {
+}
+
+.carousel-control-next {
+  width: 5%;
+}
+
+.carousel-control-prev {
+  width: 5%;
+}

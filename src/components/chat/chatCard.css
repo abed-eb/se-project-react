@@ -1,0 +1,13 @@
+.rce-citem-body--bottom-status span {
+  background: #007bff;
+}
+
+.rce-citem {
+  background: #cfebfc;
+}
+.rce-citem:hover {
+  background: #bbd3e3;
+}
+.rce-container-citem {
+  border-radius: 0.5rem;
+}

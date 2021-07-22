@@ -1,0 +1,11 @@
+#categories img {
+  border-radius: 1.25rem !important;
+}
+
+#categories .overlay {
+  border-radius: 1.25rem !important;
+}
+
+#categories .fade-in-overlay {
+  border-radius: 1.25rem !important;
+}

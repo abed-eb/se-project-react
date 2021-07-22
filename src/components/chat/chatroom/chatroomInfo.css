@@ -1,0 +1,10 @@
+.user-profile-details {
+  height: inherit;
+}
+.user-profile-details img {
+  border-radius: 50%;
+}
+
+.user-profile {
+  height: inherit;
+}
